@@ -438,15 +438,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!--=================================
  banner -->
-
+ 
 <!--=================================
-car-listing-sidebar -->
+product-listing  -->
 
-<section class="car-listing-sidebar product-listing" data-sticky_parent>
-  <div class="container-fluid">
-     <div class="row no-gutter">
-      <div class="car-listing-sidebar-left" >
-       <div class="listing-sidebar scrollbar" data-sticky_column>
+<section class="product-listing page-section-ptb">
+  <div class="container">
+    <div class="row">
+     <div class="col-lg-3 col-md-4">
+     <div class="listing-sidebar">
       <div class="widget">
          <div class="widget-search">
            <h5>Advanced Search</h5>
@@ -456,8 +456,8 @@ car-listing-sidebar -->
            </ul>
        </div>
        <div class="clearfix">
-         <ul class="list-group">
-            <li class="list-group-item">
+           <ul class="list-group">
+              <li class="list-group-item">
                 <a href="#">Status</a>
                 <ul><li><span class="checkbox">
                   <label>
@@ -585,83 +585,18 @@ car-listing-sidebar -->
                   </span></li>
                 </ul>
               </li>
-              <!-- <li class="list-group-item">
-                <a href="#">Exterior Color</a>
-                <ul><li><span class="checkbox">
-                  <label>
-                    <input type="checkbox"> Ruby Red Metallic
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Racing Yellow
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Guards Red
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Aqua Blue Metallic
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> White
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Dark Blue Metallic
-                    </label>
-                  </span></li>
-                </ul>
-              </li>
-              <li class="list-group-item">
-                <a href="#">Interior Color</a>
-                <ul><li><span class="checkbox">
-                  <label>
-                    <input type="checkbox"> Platinum Grey
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Agate Grey
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Marsala Red
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Alcantara Black
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Black
-                    </label>
-                  </span></li>
-                  <li><span class="checkbox">
-                    <label>
-                      <input type="checkbox"> Luxor Beige
-                    </label>
-                  </span></li>
-                </ul>
-              </li> -->
             </ul>
           </div>
          </div>
+        <div class="widget-banner">
+          <img class="img-fluid center-block" src="images/banner.jpg" alt="images">
+       </div>
       </div>
-      </div>
-      <div class="car-listing-sidebar-right">
-       <div class="sorting-options-main"> 
-        <div class="row justify-content-between">
-        <div class="col-xl-3 col-md-12">
+     </div>
+      <div class="col-lg-9 col-md-8">
+       <div class="sorting-options-main">
+        <div class="row">
+        <div class="col-lg-6">
           <div class="price-slide">
            <div class="price">
             <label for="amount">Price Range</label>
@@ -670,1255 +605,280 @@ car-listing-sidebar -->
            </div>
           </div>
          </div>
-         <div class="col-xl-2 col-md-12 ml-auto">
-            <div class="selected-box">
-           <span>Sort by</span>
-             <select>
-              <option>Sort by Default </option>
-              <option>Sort by Name</option>
-              <option>Sort by Price </option>
-              <option>Sort by Date </option>
-             </select>
-           </div>
-         </div>
-         <div class="col-xl-2 col-md-12">
+         <div class="col-lg-6">
            <div class="price-search">
-            <span>Search Property</span>
+            <span>Price search</span>
              <div class="search">
               <i class="fa fa-search"></i>
              <input type="search" class="form-control placeholder" placeholder="Search....">
             </div>
+           </div>
          </div>
+        </div> 
+        <div class="row sorting-options"> 
+          <div class="col-md-5">
+           <div class="change-view-button">
+            <strong><a href="buy-properties-listing.html"><u>Properties</u> </a></strong>
+            <strong><a href="agent-listing.html" class="active"><u>Agent <i class="glyph-icon flaticon-circle"></i></u> </a></strong>
+           </div>
+          </div>
+         <div class="col-md-3 text-right">
+           <div class="selected-box">
+            <select>
+              <option>Show  </option>
+              <option>1</option>
+              <option>2 </option>
+              <option>3 </option>
+              <option>4 </option>
+              <option>5 </option>
+            </select>
+          </div>
          </div>
+         <div class="col-md-4 text-right">
+            <div class="selected-box">
+             <select>
+              <option>Sort by </option>
+              <option>Price: Lowest first</option>
+              <option>Price: Highest first </option>
+              <option>Product Name: A to Z </option>
+              <option>Product Name: Z to A </option>
+               <option>In stock</option>
+             </select>
+           </div>
         </div>
-       </div>
-     <div class="isotope column-5">
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-             </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
+        </div>
+        </div>
+        <div class="car-grid">
+           <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="car-item gray-bg text-center">
+               <div class="car-image">
+                 <img class="img-fluid" src="./images/buy.png" alt="images">
+                 <div class="car-overlay-banner">
+                  <ul> 
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                   </ul>
                  </div>
+               </div>
+              </div>
+             </div>
+              <div class="col-lg-8 col-md-12">
+                <div class="car-details">
+                <div class="car-title">
+                 <a href="#">House</a>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                  </div>
+                  <div class="price">
+                       <span class="old-price">₹35,568</span>
+                       <span class="new-price">₹35,568</span>
+                       <a class="button red float-right" href="#"><i class="fa fa-phone"></i> Contact Agent</a>
+                     </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <li>Area:240m<sup>2</sup></li>
+                       <li>Bed:1</li>
+                       <li>Bath:1</li>
+                       <li>Garage:1</li>
+                     </ul>
+                   </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-eye"></i> Get Phone no.</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-hand-o-up"></i> Save</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-link"></i> Details</a></button>
+                     </ul>
+                   </div>
+                  </div>
                 </div>
-             </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-            <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
                </div>
              </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
+             <div class="car-grid">
+           <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="car-item gray-bg text-center">
+               <div class="car-image">
+                 <img class="img-fluid" src="./images/buy.png" alt="images">
+                 <div class="car-overlay-banner">
+                  <ul> 
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                   </ul>
                  </div>
+               </div>
+              </div>
+             </div>
+              <div class="col-lg-8 col-md-12">
+                <div class="car-details">
+                <div class="car-title">
+                 <a href="#">House</a>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                  </div>
+                  <div class="price">
+                       <span class="old-price">₹35,568</span>
+                       <span class="new-price">₹35,568</span>
+                       <a class="button red float-right" href="#"><i class="fa fa-phone"></i> Contact Agent</a>
+                     </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <li>Area:240m<sup>2</sup></li>
+                       <li>Bed:1</li>
+                       <li>Bath:1</li>
+                       <li>Garage:1</li>
+                     </ul>
+                   </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-eye"></i> Get Phone no.</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-hand-o-up"></i> Save</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-link"></i> Details</a></button>
+                     </ul>
+                   </div>
+                  </div>
                 </div>
-             </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-            <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
                </div>
              </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
+        <div class="car-grid">
+           <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="car-item gray-bg text-center">
+               <div class="car-image">
+                 <img class="img-fluid" src="./images/buy.png" alt="images">
+                 <div class="car-overlay-banner">
+                  <ul> 
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                   </ul>
                  </div>
+               </div>
+              </div>
+             </div>
+              <div class="col-lg-8 col-md-12">
+                <div class="car-details">
+                <div class="car-title">
+                 <a href="#">House</a>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                  </div>
+                  <div class="price">
+                       <span class="old-price">₹35,568</span>
+                       <span class="new-price">₹35,568</span>
+                       <a class="button red float-right" href="#"><i class="fa fa-phone"></i> Contact Agent</a>
+                     </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <li>Area:240m<sup>2</sup></li>
+                       <li>Bed:1</li>
+                       <li>Bath:1</li>
+                       <li>Garage:1</li>
+                     </ul>
+                   </div>
+                  </div>
                 </div>
-             </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-            <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
                </div>
              </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
+          <div class="car-grid">
+           <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="car-item gray-bg text-center">
+               <div class="car-image">
+                 <img class="img-fluid" src="./images/buy.png" alt="">
+                 <div class="car-overlay-banner">
+                  <ul> 
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                   </ul>
                  </div>
+               </div>
+              </div>
+             </div>
+              <div class="col-lg-8 col-md-12">
+                <div class="car-details">
+                <div class="car-title">
+                 <a href="#">House</a>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                 </div>
+                  <div class="price">
+                       <span class="old-price">₹35,568</span>
+                       <span class="new-price">₹35,568</span>
+                       <a class="button red float-right" href="#"><i class="fa fa-phone"></i> Contact Agent</a>
+                     </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <li>Area:240m<sup>2</sup></li>
+                       <li>Bed:1</li>
+                       <li>Bath:1</li>
+                       <li>Garage:1</li>
+                     </ul>
+                   </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-eye"></i> Get Phone no.</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-hand-o-up"></i> Save</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-link"></i> Details</a></button>
+                     </ul>
+                   </div>
+                  </div>
                 </div>
-             </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-            <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
                </div>
              </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
+          <div class="car-grid">
+           <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="car-item gray-bg text-center">
+               <div class="car-image">
+                 <img class="img-fluid" src="./images/buy.png" alt="">
+                 <div class="car-overlay-banner">
+                  <ul> 
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                   </ul>
                  </div>
+               </div>
+              </div>
+             </div>
+              <div class="col-lg-8 col-md-12">
+                <div class="car-details">
+                <div class="car-title">
+                 <a href="#">House</a>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                  </div>
+                  <div class="price">
+                       <span class="old-price">₹35,568</span>
+                       <span class="new-price">₹35,568</span>
+                       <a class="button red float-right" href="#"><i class="fa fa-phone"></i> Contact Agent</a>
+                     </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <li>Area:240m<sup>2</sup></li>
+                       <li>Bed:1</li>
+                       <li>Bath:1</li>
+                       <li>Garage:1</li>
+                     </ul>
+                   </div>
+                   <div class="car-list">
+                     <ul class="list-inline">
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-eye"></i> Get Phone no.</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-hand-o-up"></i> Save</a></button>
+                       <button><a class="button-red float-right" href="#"><i class="fa fa-link"></i> Details</a></button>
+                     </ul>
+                   </div>
+                  </div>
                 </div>
-             </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-           <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
                </div>
              </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
+           <div class="pagination-nav d-flex justify-content-center">
+               <ul class="pagination">
+                 <li><a href="#">«</a></li>
+                 <li class="active"><a href="#">1</a></li>
+                 <li><a href="#">2</a></li>
+                 <li><a href="#">3</a></li>
+                 <li><a href="#">4</a></li>
+                 <li><a href="#">5</a></li>
+                 <li><a href="#">»</a></li>
                </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-                </div>
-             </div>
           </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-            <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-             </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-                </div>
-             </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-            <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-             <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-             </div>
-             <div class="car-list">
-               <ul class="list-inline" >
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-             </div>
-             <div class="car-content">
-                <span>Bath:1</span>
-                <span>Garage:1</span>
-               <!--  <div class="star">
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star orange-color"></i>
-                  <i class="fa fa-star-o orange-color"></i>
-                 </div> -->
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-                </div>
-             </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="car-item gray-bg text-center">
-              <div class="car-image">
-               <img class="img-fluid" src="./images/buy.png" alt="image">
-               <div class="car-overlay-banner">
-                 <ul> 
-                   <li><a href="#"><i class="fa fa-link"></i></a></li>
-                   <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
-                 </ul>
-               </div>
-              </div>
-              <div class="car-list">
-               <ul class="list-inline">
-                 <li>Area:240m<sup>2</sup></li>
-                 <li>Bed:1</li>
-               </ul>
-              </div>
-              <div class="car-content">
-                 <span>Bath:1</span>
-                 <span>Garage:1</span>
-                 <a href="#">House</a>
-                 <div class="separator"></div>
-                 <div class="price">
-                   <span class="old-price">₹35,568</span>
-                   <span class="new-price">₹32,698 </span>
-                 </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-   </div>
-  </div>
 </section>
 
 <!--=================================
-car-listing-sidebar -->
- 
-
+product-listing  -->
 
 <!--=================================
  footer -->

@@ -161,15 +161,6 @@ Design and Developed by: potenzaglobalsolutions.com
 .footer-2 .footer-box { margin-bottom: 30px; }
 .copyright .text-left, .copyright .text-right { text-align: center; }  
 /*home-2*/
-/*.content-box { margin-bottom: 30px; }
-.counter.counter-style-2 .separator:after { position: absolute; bottom: 0; float: left; height: 50px; display: block; margin: auto; content: ""; width: 1px; background: #ffffff; left: 5px; transition: height .8s ease, background-color .8s ease; -webkit-transition: height .8s ease, background-color .8s ease; -o-transition: height .8s ease, background-color .8s ease; -ms-transition: height .8s ease, background-color .8s ease; -moz-transition: height .8s ease, background-color .8s ease; }
-.counter.counter-style-2 .separator:before { position: absolute; bottom: 0; float: left; content: ''; display: block; margin: auto; width: 1px; height: 30px; background: #ffffff; transition: height .8s ease, background-color .8s ease; -webkit-transition: height .8s ease, background-color .8s ease; -o-transition: height .8s ease, background-color .8s ease; -ms-transition: height .8s ease, background-color .8s ease; -moz-transition: height .8s ease, background-color .8s ease; margin-right: 10px; }
-.counter.counter-style-2 .item:hover .separator:before { height: 50px; }
-.counter.counter-style-2 .item:hover .separator:after { height: 30px; }
-.counter.counter-style-2 .item .info { margin-left: 30px; display: block; }
-.counter.counter-style-2 .item .info i:before { font-size: 30px; color: #ffffff; display: inline-block; margin-right: 10px; }
-.counter.counter-style-2 .item .info b { font-size: 40px; font-weight: 600; margin: 10px 0px; }
-.counter.counter-style-2 .counter-block { margin-left: 16px; position: relative; }*/
 .content-box { margin-bottom: 30px; }
 .counter.counter-style-1.counter-light ul { display: inline-block; width: 100%; background: #ffffff; }
 .testimonial-2 .testimonial-center { width: 100%; }
@@ -340,6 +331,7 @@ Design and Developed by: potenzaglobalsolutions.com
 }
 @media( max-width:767px) {
 h2 { font-size: 32px; }
+.testimonial-3 {display: none;}
 .section-title { margin-bottom: 40px; }
 .section-title h2 { font-size: 30px; }
 .custom-block-1 h2 { font-size: 60px; }
