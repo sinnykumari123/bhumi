@@ -314,7 +314,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
     Topbar dark 
 *************************/
 #header.topbar-dark { background: #ffffff; z-index: 999; padding: 0px; margin: 0px; position: relative; width: 100%; }
-#header.topbar-dark .topbar { border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Roboto', sans-serif; }
+#header.topbar-dark .topbar {margin-top: -20px; border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Roboto', sans-serif; }
 #header.topbar-dark .mega-menu .menu-links > li > a { color: #323232; }
 #header.topbar-dark .mega-menu .menu-links > li > a:hover { color: #db2d2e; }
 #header.topbar-dark .mega-menu.desktopTopFixed > section.menu-list-items { background: #ffffff; border-bottom: 1px solid #f6f6f6;  }
