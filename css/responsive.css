@@ -170,9 +170,6 @@ Design and Developed by: potenzaglobalsolutions.com
 .counter.counter-style-2 .item .info i:before { font-size: 30px; color: #ffffff; display: inline-block; margin-right: 10px; }
 .counter.counter-style-2 .item .info b { font-size: 40px; font-weight: 600; margin: 10px 0px; }
 .counter.counter-style-2 .counter-block { margin-left: 16px; position: relative; }*/
-
-.counter{height: 10px; width: 100%;}
-.counter .counter-block .separator .info i{height: 10px;width: 100%; }
 .content-box { margin-bottom: 30px; }
 .counter.counter-style-1.counter-light ul { display: inline-block; width: 100%; background: #ffffff; }
 .testimonial-2 .testimonial-center { width: 100%; }
