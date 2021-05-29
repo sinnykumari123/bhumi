@@ -216,7 +216,7 @@ Design and Developed by: potenzaglobalsolutions.com
 .sorting-options-main .text-right { text-align: left; margin-top: 10px; }
 .sorting-options-main .pagination-nav.text-center { text-align: left; margin: 14px 0px; }
 .sorting-options-main .sorting-options .selectpicker { margin-left: 0px; margin-right: 10px; }
-.product-listing .car-grid .car-details { margin-top: 20px; }
+.product-listing .car-grid .car-details { margin-top: 20px;}
 .car-details .details-nav ul li { margin-bottom: 15px; }
 #tabs .tabs li { padding: 10px 5px; }
 .content-box-3 img { display: none; }
@@ -378,8 +378,14 @@ h2 { font-size: 32px; }
  .latest-blog.border.masonry-main .pagination-nav { margin-bottom: 40px; }
  .blog.blog-single .blog-sidebar { margin-top: 40px; }
  .navigation-previous.pull-right { float: left !important; margin-top: 20px; }
- .product-listing .widget-banner { margin-bottom: 50px; }
- .product-listing .widget-banner img { margin-left: 0px; }
+ .product-listing .listing-sidebar{ display: none;}
+ .product-listing .sorting-options-main .price-slide{ display: none;}
+ .product-listing .sorting-options-main .price-search{ display: none;}
+ .product-listing .sorting-options .col-md-3{ display: none;}
+ .product-listing .sorting-options-main{margin-top: -30px;}
+ .product-listing .car-grid-save-search{ display: none;}
+ .product-listing .widget-banner { margin-bottom: 50px; display: none;}
+ .product-listing .widget-banner img { margin-left: 0px; display: none;}
  .car-details .car-price.text-right { text-align: left; }
  .car-details .car-details-sidebar { margin-top: 30px; }
  .play-video .video-info { margin-top: -120px; }

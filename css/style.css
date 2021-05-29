@@ -1406,6 +1406,19 @@ ul.page-breadcrumb li a:hover { color: #db2d2e; }
 .product-listing .car-grid .car-item .car-overlay-banner ul { top: 50%; }
 .product-listing .car-grid:hover .car-overlay-banner { opacity: 1; top: 0; }
 
+.product-listing .car-grid-save-search { margin-top: 30px; }
+.product-listing .car-grid-save-search { border: 1px solid #e3e3e3; padding: 20px; }
+.product-listing .car-grid-save-search .car-item { margin-top: 0px; }
+.product-listing .car-grid-save-search .car-title a { position: relative; padding-bottom: 10px; margin-bottom: 10px; display: inline-block; font-size: 20px; text-transform: uppercase; font-weight: 600; color: #363636; }
+.product-listing .car-grid-save-search .car-title a:before { position: absolute; content: ""; width: 20px; height: 2px; background: #db2d2e; left: 0; bottom: 0px; }
+.product-listing .car-grid-save-search .price span { color: #db2d2e; font-weight: 700; font-size: 16px; }
+.product-listing .car-grid-save-search .price span.old-price { color: #999999; text-decoration: line-through; padding-right: 5px; font-size: 13px; font-weight: 400; }
+.product-listing .car-grid-save-search .price a.button { padding: 3px 20px; }
+.product-listing .car-grid-save-search .car-list { margin-top: 21px; }
+.product-listing .car-grid-save-search .car-list ul li { border: 1px solid #e3e3e3; padding: 1px 10px; font-size: 12px; display: inline-block; }
+.product-listing .car-grid-save-search .car-item .car-overlay-banner ul { top: 50%; }
+.product-listing .car-grid-save-search:hover .car-overlay-banner { opacity: 1; top: 0; }
+
 /*************************************
         Product details
 **************************************/
