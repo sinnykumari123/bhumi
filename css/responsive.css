@@ -133,10 +133,12 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 .page-section-pb { padding-bottom: 60px; }	
 /* home 1 */
 #header .topbar-left.text-left, #header .topbar-right.text-right { text-align: center; }
-.mega-menu .menu-logo > li > a { padding: 0px;  }
+.mega-menu .menu-logo > li > a { padding: 0px; }
 .mega-menu .menu-logo { padding: 20px 0; }
-.mega-menu .menu-logo img { height: 24px; }
-.mega-menu .menu-mobile-collapse-trigger { margin-top: 9px; }
+.mega-menu .menu-logo img { padding-left: 50px;}
+#header .topbar-dark .bottom {position:relative;float: left;padding-left: 40px; }
+/*.mega-menu .menu-logo a > img{ height: 24px; padding-left: 15px;}*/
+.mega-menu .menu-mobile-collapse-trigger { margin-top: 9px; left: 0px; }
 .mega-menu .menu-links { border:1px solid #e3e3e3; }
 .mega-menu .menu-links > li { line-height: 44px; }
 .mega-menu .mobileTriggerButton { z-index: 1; }
@@ -156,19 +158,19 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 .footer .social ul li a { padding: 0px 10px; }
 .footer .social ul li a i { font-size: 20px; }
 .footer .recent-post-block { margin-top: 30px; }
-.footer .news-letter { margin-top: 30px; }
-.footer-2 .usefull-link { margin-bottom: 30px; }
-.footer-2 .social { margin-bottom: 30px; }
+.footer .news-letter { margin-top: 30px;}
+.footer-2 .usefull-link { margin-bottom: 30px;}
+.footer-2 .social { margin-bottom: 30px;}
 .footer-2 .footer-box { margin-bottom: 30px; }
-.copyright .text-left, .copyright .text-right { text-align: center; }  
+.copyright .text-left, .copyright .text-right { text-align: center;}  
 /*home-2*/
-.content-box { margin-bottom: 30px; }
+.content-box {margin-bottom: 30px;}
 .counter.counter-style-1.counter-light ul { display: inline-block; width: 100%; background: #ffffff; }
 .testimonial-2 .testimonial-center { width: 100%; }
 .why-choose .feature-box { margin-bottom: 30px; }
 .why-choose.page-section-pt { padding-bottom: 50px; }
 /*home-3*/
-.topbar-dark .mega-menu .menu-mobile-collapse-trigger:before, .topbar-dark .mega-menu .menu-mobile-collapse-trigger:after, .topbar-dark .mega-menu .menu-mobile-collapse-trigger span { background: #db2d2e; }
+.topbar-dark .mega-menu .menu-mobile-collapse-trigger:before, .topbar-dark .mega-menu .menu-mobile-collapse-trigger:after, .topbar-dark .mega-menu .menu-mobile-collapse-trigger span {background: #db2d2e;}
 .mega-menu { min-height: 62px; }
 #header.topbar-dark .mega-menu .menu-logo { padding: 20px 0px; }
 #header.fancy .mega-menu .menu-logo { padding: 20px 0px; }
@@ -251,7 +253,7 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 /*************************************
             Version 2.0 css
 **************************************/
-#header.topbar-dark.logo-center .mega-menu .menu-links > li { float: left; display: block; }
+#header.topbar-dark.logo-center .mega-menu .menu-links > li { float: left;}
 
 /*home-7*/
 #header.topbar-dark.logo-right .mega-menu .menu-logo > li { float: right; }
