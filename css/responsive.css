@@ -101,7 +101,7 @@ Design and Developed by: potenzaglobalsolutions.com
   }
 .navbar{overflow: hidden;background-color:#ffffff;position: fixed;bottom: 0;width: 100%;display:block;}
 .navbar a {float: left;display: block;color: #f2f2f2;text-align: center;padding: 14px 16px;
-  text-decoration: none; font-size: 15px; }
+  text-decoration: none; font-size: 15px;}
 .navbar a:hover {color: #db2d2e;}
 .navbar a.active {color: #db2d2e;background-color: #ffffff}
 /*.navbar .icon {display: block;}*/
@@ -157,15 +157,6 @@ Design and Developed by: potenzaglobalsolutions.com
 
 
 @media( max-width:992px) {
-
-.counter.counter-style-2 .separator:after { position: absolute; bottom: 0; float: left; height: 50px; display: block; margin: auto; content: ""; width: 1px; background: #ffffff; left: 5px; transition: height .8s ease, background-color .8s ease; -webkit-transition: height .8s ease, background-color .8s ease; -o-transition: height .8s ease, background-color .8s ease; -ms-transition: height .8s ease, background-color .8s ease; -moz-transition: height .8s ease, background-color .8s ease; }
-.counter.counter-style-2 .separator:before { position: absolute; bottom: 0; float: left; content: ''; display: block; margin: auto; width: 1px; height: 30px; background: #ffffff; transition: height .8s ease, background-color .8s ease; -webkit-transition: height .8s ease, background-color .8s ease; -o-transition: height .8s ease, background-color .8s ease; -ms-transition: height .8s ease, background-color .8s ease; -moz-transition: height .8s ease, background-color .8s ease; margin-right: 10px; }
-.counter.counter-style-2 .item:hover .separator:before { height: 50px; }
-.counter.counter-style-2 .item:hover .separator:after { height: 30px; }
-.counter.counter-style-2 .item .info { margin-left: 35px; display: block; }
-.counter.counter-style-2 .item .info i:before { font-size: 30px; color: #ffffff; display: inline-block; margin-right: 10px; }
-.counter.counter-style-2 .item .info b { font-size: 40px; font-weight: 600; margin: 10px 0px; }
-.counter.counter-style-2 .counter-block { margin-left: 5px; position: relative;}
 
 .page-section-ptb { padding: 60px 0; }	
 .page-section-pt { padding-top: 60px ; }	
@@ -346,6 +337,7 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
  .car-listing-sidebar .listing-sidebar.is_stuck { top: 0 !important; }
  /*index 11*/
  .our-expert-team { overflow: hidden; }
+ .counter.counter-style-2{display: none;}
 .our-expert-team .car-why-choose { padding: 20px; }
 #main-slider .slider-content h1 { font-size: 30px; line-height: 30px; }
 #main-slider .slider-content p { font-size: 18px; }
