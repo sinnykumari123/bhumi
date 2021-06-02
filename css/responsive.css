@@ -96,8 +96,8 @@ Design and Developed by: potenzaglobalsolutions.com
 .navbar a:hover {color:#db2d2e;}
 .navbar a.active {color: #db2d2e;background-color: #ffffff}
 /*.navbar .icon {display: block;}*/
-/*#header .bottom a { display: block; position: relative;float: left;margin-bottom: -10px;margin-top:-12px;}
-*/#header .bottom img { padding-left: 5px; display: block;}
+#header .bottom a { display: block; position: relative;float: left;margin-bottom: -10px;margin-top:-12px;}
+#header .bottom img { padding-left: 5px; display: block;}
 #header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -5px; color: #343a40;display: block;}
 
 
