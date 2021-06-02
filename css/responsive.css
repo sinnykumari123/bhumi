@@ -128,6 +128,14 @@ Design and Developed by: potenzaglobalsolutions.com
 
 @media( max-width:992px) {
 
+.counter.counter-style-2 .separator:after { position: absolute; bottom: 0; float: left; height: 50px; display: block; margin: auto; content: ""; width: 1px; background: #ffffff; left: 5px; transition: height .8s ease, background-color .8s ease; -webkit-transition: height .8s ease, background-color .8s ease; -o-transition: height .8s ease, background-color .8s ease; -ms-transition: height .8s ease, background-color .8s ease; -moz-transition: height .8s ease, background-color .8s ease; }
+.counter.counter-style-2 .separator:before { position: absolute; bottom: 0; float: left; content: ''; display: block; margin: auto; width: 1px; height: 30px; background: #ffffff; transition: height .8s ease, background-color .8s ease; -webkit-transition: height .8s ease, background-color .8s ease; -o-transition: height .8s ease, background-color .8s ease; -ms-transition: height .8s ease, background-color .8s ease; -moz-transition: height .8s ease, background-color .8s ease; margin-right: 10px; }
+.counter.counter-style-2 .item:hover .separator:before { height: 50px; }
+.counter.counter-style-2 .item:hover .separator:after { height: 30px; }
+.counter.counter-style-2 .item .info { margin-left: 35px; display: block; }
+.counter.counter-style-2 .item .info i:before { font-size: 30px; color: #ffffff; display: inline-block; margin-right: 10px; }
+.counter.counter-style-2 .item .info b { font-size: 40px; font-weight: 600; margin: 10px 0px; }
+.counter.counter-style-2 .counter-block { margin-left: 5px; position: relative;}
      /*footer mobile button*/
 
 #header .bottom a { display: block; position: relative;float: left;padding: 23px;margin-bottom: -10px;margin-top:-12px;}
@@ -162,7 +170,7 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 .car-item .car-list li { padding: 0 4px; }
 .blog-1 img { width: 100%; margin-bottom: 30px; }
 .blog-1 .blog-content { padding-left: 0px; }
-.counter .counter-block { margin-bottom: 30px; }
+
 .footer .social ul li a { padding: 0px 10px; }
 .footer .social ul li a i { font-size: 20px; }
 .footer .recent-post-block { margin-top: 30px; }
