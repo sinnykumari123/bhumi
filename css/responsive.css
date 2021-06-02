@@ -139,8 +139,8 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 
  /*footer mobile button*/
 
-#header .bottom a {display: block; position: relative;float: left;padding: 20px;margin-bottom: -10px;margin-top:-12px;}
-#header .bottom img {padding-left: 5px;display: block;}
+#header .bottom a {display: block; position: relative;float: left;padding: 25px;margin-bottom: -10px;margin-top:-12px;}
+#header .bottom img {padding-left: 5px; display: block;}
 #header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -5px; color: #343a40;display: block;}
 
 /*footer mobile button*/
@@ -502,7 +502,9 @@ h2 { font-size: 32px; }
 
 }
 
+
 @media( max-width:479px) { 
+
 /*home-2*/
 .custom-block-1 { padding: 40px; }
 .counter.counter-style-1.counter-light ul li { float: none; display: inline-block; width: 100%; }
