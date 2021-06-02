@@ -130,9 +130,9 @@ Design and Developed by: potenzaglobalsolutions.com
 @media screen and (max-width: 990px) and (min-width: 600px){
    /*footer mobile button*/
 
-#header .bottom a {display: block; position: relative;float: left;padding:100px;margin-bottom: -10px;margin-top:-12px;}
-#header .bottom img {padding-left: 105px; display: block;}
-#header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -105px; color: #343a40;display: block;}
+#header .bottom a {display: block; position: relative;float: left;padding:150px;margin-bottom: -10px;margin-top:-12px;}
+#header .bottom img {padding-left: 155px; display: block;}
+#header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -65px; color: #343a40;display: block;}
 
 /*footer mobile button*/
 }
