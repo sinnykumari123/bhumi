@@ -81,7 +81,7 @@ Design and Developed by: potenzaglobalsolutions.com
 }
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
+  .navbar a:not(:first-child) {display: block;}
   .navbar a.icon {
     float: right;
     display: block;
@@ -99,6 +99,15 @@ Design and Developed by: potenzaglobalsolutions.com
     display: block;
     text-align: left;
   }
+.navbar{overflow: hidden;background-color: #333;position: fixed;bottom: 0;width: 100%;display:block;}
+.navbar a {float: left;display: block;color: #f2f2f2;text-align: center;padding: 14px 16px;
+  text-decoration: none; font-size: 15px; }
+.navbar a:hover {background-color: #ffffff;color: black;}
+.navbar a.active {background-color: #6c757d;color: white;}
+.navbar .icon {display: none;}
+#header .bottom a { display: block; position: relative;float: left;padding: 15px;margin-bottom: -10px;margin-top:-12px;}
+#header .bottom img { padding-left: 5px; display: block;}
+#header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -5px; color: #343a40;display: block;}
 
 
 @media ( min-width: 1200px) {
@@ -157,13 +166,7 @@ Design and Developed by: potenzaglobalsolutions.com
 .counter.counter-style-2 .item .info i:before { font-size: 30px; color: #ffffff; display: inline-block; margin-right: 10px; }
 .counter.counter-style-2 .item .info b { font-size: 40px; font-weight: 600; margin: 10px 0px; }
 .counter.counter-style-2 .counter-block { margin-left: 5px; position: relative;}
-     /*footer mobile button*/
 
-#header .bottom a { display: block; position: relative;float: left;padding: 20px;margin-bottom: -10px;margin-top:-12px;}
-#header .bottom img { padding-left: 5px; display: block;}
-#header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -5px; color: #343a40;display: block;}
-
-/*footer mobile button*/
 .page-section-ptb { padding: 60px 0; }	
 .page-section-pt { padding-top: 60px ; }	
 section .testimonial-3 .white-bg .page-section-ptb {display: none;}
