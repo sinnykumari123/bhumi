@@ -130,10 +130,10 @@ var POTENZA = {};
                 loop: $loop,
                 items: $items,
                 responsive: {
-                  0:{items: $this.data('xx-items') ? $this.data('xx-items') : 1},
+                  0:{items: $this.data('xx-items') ? $this.data('xx-items') : 2},
                   480:{items: $this.data('xs-items') ? $this.data('xs-items') : 2},
                   768:{items: $this.data('sm-items') ? $this.data('sm-items') : 3},
-                  980:{items: $this.data('md-items') ? $this.data('md-items') : 4},
+                  980:{items: $this.data('md-items') ? $this.data('md-items') : 6},
                   1200:{items: $items}
                 },
                 dots: $navdots,
@@ -174,7 +174,7 @@ var POTENZA = {};
             slide: function(event, ui) {
                 var min = ui.values[0],
                     max = ui.values[1];
-                  $('#' + this.id).prev().val("$" + min + " - $" + max);
+                  $('#' + this.id).prev().val("₹" + min + " - ₹" + max);
             }
         });
     }
