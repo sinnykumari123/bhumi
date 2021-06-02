@@ -2001,7 +2001,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  <!--=================================
  Newsletter -->
-<header id="header" class="topbar-dark">
+ <div class="navbar" id="myNavbar">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- <header id="header" class="topbar-dark">
  <section>
      <div class="container"> 
       <div class="row"> 
@@ -2016,7 +2024,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
      </div>
  </section>
-</header>
+</header> -->
 
 <!--=================================
  footer -->
@@ -2122,7 +2130,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  <!--=================================
  footer -->
-
 
  <!--=================================
  color customizer --> 
@@ -2295,5 +2302,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      });
      })
 </script> 
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
 </body>
 </html> 
