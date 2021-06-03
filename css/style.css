@@ -277,14 +277,14 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 .topbar .topbar-right li a:hover { color: #db2d2e; }
 .topbar-right li i { padding-right: 5px; }
 
-.navbar{overflow: hidden;background-color: #333;position: fixed;bottom: 0;width: 100%;display: none;}
+/*.navbar{overflow: hidden;background-color: #333;position: fixed;bottom: 0;width: 100%;}
 
 .navbar a {float: left;display: none;color: #f2f2f2;text-align: center;padding: 14px 16px;
   text-decoration: none;
   font-size: 15px; }
 .navbar a:hover {background-color: #ffffff;color: black;display: none;}
 .navbar a.active {background-color: #6c757d;color: white;display: none;}
-.navbar .icon {display: none;}
+.navbar .icon {display: none;}*/
 
  /*footer mobile button*/
 
