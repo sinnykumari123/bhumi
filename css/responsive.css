@@ -60,7 +60,10 @@ Design and Developed by: potenzaglobalsolutions.com
 .sorting-options-main .pagination li a { margin: 0 1px; }
 .car-details .details-nav ul li a { padding: 10px 8px; }
 .car-details .details-nav ul li { margin-right: 0px; }
-.content-box-3 { overflow: hidden;}
+.content-box-3 { padding: 20px 20px 0px; }
+.content-box-3 .info { padding: 25px 0; }
+.content-box-3 .info p { margin-bottom: 10px; }
+.content-box-3 { overflow: hidden;float: left;}
 .content-box-3 img { max-width: inherit; }
 
 /*************************************
@@ -80,16 +83,16 @@ Design and Developed by: potenzaglobalsolutions.com
 
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: block;}
   .navbar a.icon {
     float: right;
     display: block;
   }
-}
+}*/
 
 @media screen and (max-width: 600px){
-  #header.topbar-dark { background: #ffffff; z-index: 999; padding: 0px; margin: 0px; position: relative; width: 100%;margin-top: -20px; }
+#header.topbar-dark { background: #ffffff; z-index: 999; padding: 0px; margin: 0px; position: relative; width: 100%;margin-top: -20px; }
 #header.topbar-dark .topbar {margin-top: -20px; border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Roboto', sans-serif; display: none;}
 /*  .navbar.responsive .icon {position: absolute;right: 0;bottom:0;}*/
 .navbar.responsive a {float: none;display: block;text-align: left;}
@@ -99,7 +102,7 @@ Design and Developed by: potenzaglobalsolutions.com
 .navbar a.active {color: #db2d2e;background-color: #ffffff}
 /*.navbar .icon {display: block;}*/
 #header .bottom a {padding: 17px; display: block; position: relative;float: left;margin-bottom: -10px;margin-top:-12px;}
-#header .bottom i { padding-left: 5px; display: block;background: fixed;}
+#header .bottom i {color: grey; padding-left: 5px; display: block;background: fixed;}
 #header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -5px; color: #343a40;display: block;}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -207,7 +210,7 @@ Design and Developed by: potenzaglobalsolutions.com
 
 @media( max-width:992px) {
 
-.page-section-ptb { padding: 60px 0; }	
+.page-section-ptb { padding: 5px 0; }	
 .page-section-pt { padding-top: 60px ; }	
 section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 .page-section-pb { padding-bottom: 60px; }	
@@ -302,11 +305,11 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 .product-listing .car-grid .car-details { margin-top: 20px;}
 .car-details .details-nav ul li { margin-bottom: 15px; }
 #tabs .tabs li { padding: 10px 5px; }
-.content-box-3 img { display: none; }
+.content-box-3 img { display: block; }
 .sorting-options-bottom .text-right { text-align: left;; margin-top: 10px; }
 .sorting-options-bottom .selectpicker {  margin-left: 0px; margin-right: 10px }
 .search .search-block { margin-top: 40px;display: none; }
-.content-box-3 { padding-top: 0px; }
+section .container-fluid .content-box-3 { padding-top:-20px; display: none; mar}
 
 /*timeline*/
 .timeline:before { left: 25px; }
