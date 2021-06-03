@@ -643,4 +643,5 @@ h2 { font-size: 32px; }
 @media print {
   #header, .footer, .inner-intro, .feature-car, .details-social, .details-form, .details-form, .car-top { display: none; }
   #tabs .tabcontent { display: block !important; }
+  .car-top{display: none;}
  }
