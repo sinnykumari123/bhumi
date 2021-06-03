@@ -123,10 +123,10 @@ Design and Developed by: potenzaglobalsolutions.com
 .navbar a:hover {color:#db2d2e;}
 .navbar a.active {color: #db2d2e;background-color: #ffffff}
 /*.navbar .icon {display: block;}*/
-/*#header .bottom a {padding: 17px; display: block; position: relative;float: left;margin-bottom: -10px;margin-top:-12px;}
+#header .bottom a {padding: 17px; display: block; position: relative;float: left;margin-bottom: -10px;margin-top:-12px;}
 #header .bottom i { padding-left: 5px; display: block;background: fixed;}
 #header .bottom p {margin-bottom: 0;margin-top: 0;margin-right: -5px; color: #343a40;display: block;}
-*/
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
  .navbar.responsive a {float: none;display: block;text-align: left;}
