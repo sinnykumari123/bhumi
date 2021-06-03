@@ -80,13 +80,13 @@ Design and Developed by: potenzaglobalsolutions.com
 
 }
 
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: block;}
   .navbar a.icon {
     float: right;
     display: block;
   }
-}*/
+}
 
 @media screen and (max-width: 600px){
   #header.topbar-dark { background: #ffffff; z-index: 999; padding: 0px; margin: 0px; position: relative; width: 100%;margin-top: -20px; }
