@@ -1141,7 +1141,7 @@ footer .copyright ul li a:hover { color: #db2d2e; }
 /*************************************
         Inner intro
 **************************************/
-.inner-intro { height: 410px; display: block; }
+.inner-intro { height: 300px; display: block; }
 .inner-intro .container { display: table; height: 100%; position: relative; }
 .inner-intro span { text-transform: capitalize; }
 .intro-title { display: table-cell; vertical-align: bottom; padding-bottom: 30px; }
@@ -1457,7 +1457,7 @@ ul.page-breadcrumb li a:hover { color: #db2d2e; }
 .product-listing .car-grid .car-title a:before { position: absolute; content: ""; width: 20px; height: 2px; background: #db2d2e; left: 0; bottom: 0px; }
 .product-listing .car-grid .price span { color: #db2d2e; font-weight: 700; font-size: 16px; }
 .product-listing .car-grid .price span.old-price { color: #999999; text-decoration: line-through; padding-right: 5px; font-size: 13px; font-weight: 400; }
-.product-listing .car-grid .price a.button { padding: 3px 20px; }
+.product-listing .car-grid .price a.button { padding: 3px 15px; }
 .product-listing .car-grid .car-list { margin-top: 21px; }
 .product-listing .car-grid .car-list ul li { border: 1px solid #e3e3e3; padding: 1px 10px; font-size: 12px; display: inline-block; }
 .product-listing .car-grid .car-item .car-overlay-banner ul { top: 50%; }
