@@ -394,6 +394,8 @@ h3 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 28px; }
 .car-item-2 .car-list ul li { margin-bottom: 3px; }
 .testimonial-3 .owl-carousel .owl-item img { width: 100%;}
 .news-letter-main .news-letter-form  { padding: 0 15px; margin-top: 20px; }
+.news-letter-main { padding: 10px 0px; margin-bottom: 90px;}
+.section-title span { margin-bottom: 5px; display: block;}
 .testimonial-4 .testimonial-block p { padding: 0px;}
 .recent-vehicle .isotope.column-4 .grid-item { width: 50% }
 .recent-vehicle .isotope.column-5 .grid-item { width: 50%; }
@@ -439,6 +441,10 @@ h3 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 28px; }
  .product-listing .car-grid .car-title a { position: relative; padding-bottom: 10px; margin-bottom: 10px; display: inline-block; font-size: 15px; text-transform: uppercase; font-weight: 600; color: #363636;}
  .product-listing .pagination-nav{ margin-top: 1700px;margin-bottom: 70px;}
  .inner-intro { height: 300px; display: block; }
+ .car-item .car-content a { font-size: 14px;}
+ .car-item .car-content span { font-size: 14px;}
+
+
 
  .product-listing .widget-banner { margin-bottom: 50px; display: none;}
  .product-listing .widget-banner img { margin-left: 0px; display: none;}
