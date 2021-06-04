@@ -415,7 +415,12 @@ h2 { font-size: 32px; }
  .product-listing .sorting-options-main .price-search{ display: none;}
  .product-listing .sorting-options .col-md-3{ display: none;}
  .product-listing .sorting-options-main{margin-top: 30px;display: none;}
- .product-listing .car-grid-save-search{ display: block;}
+ .product-listing .car-grid-save-search{ display: block;margin-top: 0px;}
+ .product-listing .car-grid { margin-top: 5px; width: 50%;position: relative;float: left; }
+ .product-listing .car-grid p{display: none;}
+ .product-listing .car-grid .car-list {display: none;}
+ .product-listing .pagination-nav{ margin-top: 1900px;margin-bottom: 70px;}
+
  .product-listing .widget-banner { margin-bottom: 50px; display: none;}
  .product-listing .widget-banner img { margin-left: 0px; display: none;}
  .car-details .car-price.text-right { text-align: left; }
