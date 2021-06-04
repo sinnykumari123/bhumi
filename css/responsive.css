@@ -70,7 +70,7 @@ Design and Developed by: potenzaglobalsolutions.com
             Version 2.2 css
 **************************************/
  /*landing-page*/
-.slider-parallax { height: 100vh; }
+.slider-parallax { height: 50vh; }
 .overview .overview-share .share ul li a { margin-right: 0; }
 .overview .overview-share .pdf, .overview .overview-share .see-video, .overview .overview-share .share { margin-right: 5px; }
 .awards-box span { font-size: 16px; }
@@ -414,7 +414,7 @@ h2 { font-size: 32px; }
  .product-listing .sorting-options-main .price-slide{ display: none;}
  .product-listing .sorting-options-main .price-search{ display: none;}
  .product-listing .sorting-options .col-md-3{ display: none;}
- .product-listing .sorting-options-main{margin-top: -30px;}
+ .product-listing .sorting-options-main{margin-top: 30px;display: none;}
  .product-listing .car-grid-save-search{ display: block;}
  .product-listing .widget-banner { margin-bottom: 50px; display: none;}
  .product-listing .widget-banner img { margin-left: 0px; display: none;}
