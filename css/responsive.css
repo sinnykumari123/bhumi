@@ -422,10 +422,12 @@ h3 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 28px; }
  .masonry.columns-2 .masonry-item { width: 100%; padding: 0px; }
  .masonry.columns-3 .masonry-item { width: 100%; padding: 0px; }
 /* .masonry.columns-4 .masonry-item { width: 100%; padding: 0px; }*/
+ .get-quote{margin-bottom: 70px;}
+ .get-quote h2 { margin-bottom: 2px; font-size: 20px;}
  .blog-2 .blog-content { background: #ffffff; position: relative; margin: 0px 0px 0px;}
  .blog-2 .blog-description { padding: 2px; }
  .blog-2 .blog-description .separator { margin-bottom: 5px; margin-top: -10px;}
-
+ .details-form.contact-2 .gray-form {margin-bottom: 30px;}
  .latest-blog.border.masonry-main .pagination-nav { margin-bottom: 40px; }
  .blog.blog-single .blog-sidebar { margin-top: 40px; }
  .navigation-previous.pull-right { float: left !important; margin-top: 20px; }
