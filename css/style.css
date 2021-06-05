@@ -118,7 +118,7 @@ blockquote cite { font-size: 14px; margin-top: 15px; display: block; font-weight
 /***************************
 Page section margin padding 
 ****************************/
-.page-section-ptb { padding: 20px 0; }
+.page-section-ptb { padding: 20px 0;}
 .page-section-pt { padding: 80px 0 0; }
 .page-section-pb { padding: 0 0 80px; }
 
@@ -1435,7 +1435,7 @@ ul.page-breadcrumb li a:hover { color: #db2d2e; }
 .product-listing .price-search i { position: absolute; right: 0px; padding: 16px 12px; font-size: 14px; color: #626262; cursor: pointer; }
 .product-listing .price-search input:focus { border-color: #db2d2e; }
 .product-listing .price-search span { margin-bottom: 10px; color: #000; font-size: 14px; text-transform: uppercase; display: block; }
-.product-listing .pagination-nav { margin-top: 30px; }
+.product-listing .pagination-nav { margin-top: 30px;display: flex;}
 .pagination-nav .pagination li { display: inline-block; }
 .pagination-nav .pagination li a{ border:1px solid #ddd; }
 
