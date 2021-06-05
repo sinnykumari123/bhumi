@@ -284,7 +284,7 @@ section .container-fluid .content-box-3 { padding-top:-20px; display: none; mar}
 #exampleModal5 .modal-dialog { width: auto; }
 .details-nav ul { text-align: center; }
 .car-details .details-nav ul li { margin-bottom: 0px; }
-.details-nav ul li a { margin-bottom: 3px; }
+.details-nav ul li a { margin-bottom: 3px; display: none; }
 
 .details-nav .modal  { text-align: left; }
 
@@ -431,6 +431,7 @@ h3 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 28px; }
  .latest-blog.border.masonry-main .pagination-nav { margin-bottom: 70px; }
  .blog.blog-single .blog-sidebar { margin-top: 40px; }
  .navigation-previous.pull-right { float: left !important; margin-top: 20px; }
+ .car-details .extra-feature li{ width: 50%; }
  .product-listing .listing-sidebar{ display: none;}
  .product-listing .sorting-options-main .price-slide{ display: none;}
  .product-listing .sorting-options-main .price-search{ display: none;}
