@@ -142,7 +142,7 @@ Page section margin padding
   Section Title 
 ***********************/
 
-.section-title { margin-bottom: 60px; text-align: center; }
+.section-title { margin-bottom: 0px; text-align: center; }
 .section-title .separator { position: relative; margin-top: 10px; display: inline-block; }
 .section-title h2 { font-size: 36px; text-transform: uppercase; font-weight: 600; }
 .section-title span { margin-bottom: 10px; display: block; }

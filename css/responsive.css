@@ -395,7 +395,8 @@ h3 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 28px; }
 .testimonial-3 .owl-carousel .owl-item img { width: 100%;}
 .news-letter-main .news-letter-form  { padding: 0 15px; margin-top: 20px; }
 .news-letter-main { padding: 10px 0px; margin-bottom: 90px;}
-.section-title span { margin-bottom: 5px; display: block;}
+.section-title span { margin-bottom: 0px; display: block;}
+.section-title { margin-bottom: 10px; text-align: center; }
 .testimonial-4 .testimonial-block p { padding: 0px;}
 .recent-vehicle .isotope.column-4 .grid-item { width: 50% }
 .recent-vehicle .isotope.column-5 .grid-item { width: 50%; }
