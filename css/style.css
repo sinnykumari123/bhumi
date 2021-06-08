@@ -141,7 +141,75 @@ Page section margin padding
 /*************************
   Section Title 
 ***********************/
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #0522fc;
+  color: white;
+/*  padding: 16px 20px;*/
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  height: 50px;
+  width: 100px;
+}
 
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  height: 25px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
 .section-title { margin-bottom: 0px; text-align: center; }
 .section-title .separator { position: relative; margin-top: 10px; display: inline-block; }
 .section-title h2 { font-size: 36px; text-transform: uppercase; font-weight: 600; }
@@ -369,7 +437,9 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 .nav__icon {
     font-size: 18px;
 }
-
+#header.topbar-dark .mega-menu .menu-links .button p{margin-top: -15px;text-align: center;margin-right: 10px;}
+#header.topbar-dark .mega-menu .menu-links .button{ color: #ffffff; width: 100px; height: 30px;}
+#header.topbar-dark .mega-menu .menu-links .menu-logo img{height: 50px;width: 50px;border-radius: 50%; margin-top: -6px;padding: 10px;}
 #header.topbar-dark { background: #ffffff; z-index: 999; padding: 0px; margin: 0px; position: relative; width: 100%; }
 #header.topbar-dark .topbar {margin-top: -20px; border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Roboto', sans-serif; }
 #header.topbar-dark .mega-menu .menu-links > li > a { color: #323232; }
