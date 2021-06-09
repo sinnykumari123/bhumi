@@ -402,14 +402,14 @@ textarea {
     color: #48b0f7 !important
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800,800italic,300italic|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
-body { font-family: 'Open Sans', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #999999; }
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {font-family: 'Oswald', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #999999; }
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color:  #002366; text-decoration: none !important; }
 a, button, input { outline: medium none !important; color:  #002366; }
 .uppercase { text-transform: uppercase; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; font-weight: normal; color: #363636; margin-top: 0px; text-transform: uppercase; }
+h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; font-weight: normal; color: #363636; margin-top: 0px; text-transform: uppercase; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 40px; font-style: normal; font-weight: 500; line-height: 40px; }
 h2 { font-size: 35px; font-style: normal; font-weight: 600; line-height: 35px; }
@@ -672,7 +672,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 #header.defualt { background: transparent; z-index: 999; padding: 0px; margin: 0px; position: absolute; width: 100%; }
 
 /*topbar*/
-.topbar { border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 10px 0px; font-family: 'Roboto', sans-serif; }
+.topbar { border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 10px 0px; font-family: 'Oswald', sans-serif; }
 .topbar li, .topbar li a { color: #ffffff; }
 .topbar-left li i { padding-right: 5px; }
 .topbar-right .list-inline li:last-child, .topbar-right li:last-child i { padding-right: 0px; }
@@ -775,7 +775,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 #header.topbar-dark .mega-menu .menu-links .button{ color: #ffffff; width: 100px; height: 30px;}
 #header.topbar-dark .mega-menu .menu-links .menu-logo img{height: 50px;width: 50px;border-radius: 50%; margin-top: -6px;padding: 10px;}
 #header.topbar-dark { background: #ffffff; z-index: 999; padding: 0px; margin: 0px; position: relative; width: 100%; }
-#header.topbar-dark .topbar {margin-top: -20px; border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Roboto', sans-serif; }
+#header.topbar-dark .topbar {margin-top: -20px; border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Oswald', sans-serif; }
 #header.topbar-dark .mega-menu .menu-links > li > a { color: #323232; }
 #header.topbar-dark .mega-menu .menu-links > li > a:hover { color: #002366; }
 #header.topbar-dark .mega-menu.desktopTopFixed > section.menu-list-items { background: #ffffff; border-bottom: 1px solid #f6f6f6;  }
@@ -1010,7 +1010,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
        Latest blog
 **************************************/
 .blog-1 .blog-content { padding-left: 30px; }
-.blog-1 .blog-content a.link { text-transform: uppercase; position: relative; padding-bottom: 10px; line-height: 24px; font-size: 18px; color: #363636; font-weight: 600; font-family: 'Roboto', sans-serif; display: block; margin-bottom: 20px; }
+.blog-1 .blog-content a.link { text-transform: uppercase; position: relative; padding-bottom: 10px; line-height: 24px; font-size: 18px; color: #363636; font-weight: 600; font-family: 'Oswald', sans-serif; display: block; margin-bottom: 20px; }
 .blog-1 .blog-content a.link:before { position: absolute; content: ""; width: 20px; height: 2px; background: #002366; left: 0px; bottom: 0px; }
 .blog-1 .blog-content a.link:hover { color: #002366; }
 .blog-1 .blog-content p { margin-top: 25px; }
@@ -2540,11 +2540,10 @@ body{margin-top:20px;
 background:#eee;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body
 {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 .chat_box .chat_message_wrapper ul.chat_message > li + li {
     margin-top: 4px;
@@ -2559,7 +2558,7 @@ a:focus {
 .popup-head-left.pull-left h1 {
     color: #fff;
     float: left;
-    font-family: oswald;
+    font-family: 'Oswald', sans-serif;
     font-size: 18px;
     margin: 2px 0 0 5px;
    
