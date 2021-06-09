@@ -97,15 +97,15 @@ Design and Developed by: potenzaglobalsolutions.com
 /*  .navbar.responsive .icon {position: absolute;right: 0;bottom:0;}*/
 .navbar.responsive a {float: none;display: block;text-align: left;}
 .navbar{overflow: hidden;background-color:#ffffff;position: fixed;bottom: 0;width: 100%;display:block;}
-.navbar a:hover {color:#db2d2e;}
-.navbar a.active {color: #db2d2e;background-color: #ffffff}
+.navbar a:hover {color:#002366;}
+.navbar a.active {color: #002366;background-color: #ffffff}
 #header .bottom a {display: flex; flex-direction: column;}
 #header .bottom .navbar a {color:#343a40;}
  svg{padding-left: 5px;}
- svg:hover {fill:#db2d2e;}
- svg.active {fill: #db2d2e;}
-#header .bottom .navbar small:hover {color:#db2d2e;}
-#header .bottom .navbar small.active {color: #db2d2e;background-color: #ffffff}
+ svg:hover {fill:#002366;}
+ svg.active {fill: #002366;}
+#header .bottom .navbar small:hover {color:#002366;}
+#header .bottom .navbar small.active {color: #002366;background-color: #ffffff}
 #header .bottom .navbar small{padding-left: 5px;}
 
 @media ( min-width: 1200px) {
@@ -176,7 +176,7 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 .mega-menu .menu-links > li:last-child { border-bottom: 0px; }
 .search-top.search-top-open .search-box { top: 52px !important;  }
 #header.defualt { position: relative; background: #323232; }
-#header.light .mega-menu .menu-mobile-collapse-trigger:before,  #header.light .mega-menu .menu-mobile-collapse-trigger:after,  #header.light .mega-menu .menu-mobile-collapse-trigger span { background: #db2d2e; }
+#header.light .mega-menu .menu-mobile-collapse-trigger:before,  #header.light .mega-menu .menu-mobile-collapse-trigger:after,  #header.light .mega-menu .menu-mobile-collapse-trigger span { background: #002366; }
 .welcome-block p { padding: 0px; }
 .feature-box { margin-bottom: 30px; }
 .welcome-block .halp-call { margin-top: 30px; }
@@ -217,7 +217,7 @@ section .testimonial-3 .white-bg .page-section-ptb {display: none;}
 /*home-4*/
 #header.fancy .menu { position: relative; top: 0px; }
 #header.fancy .topbar { padding: 10px 0px; }
-#header.fancy .mega-menu .menu-mobile-collapse-trigger:before,  #header.fancy .mega-menu .menu-mobile-collapse-trigger:after,  #header.fancy .mega-menu .menu-mobile-collapse-trigger span { background: #db2d2e; }
+#header.fancy .mega-menu .menu-mobile-collapse-trigger:before,  #header.fancy .mega-menu .menu-mobile-collapse-trigger:after,  #header.fancy .mega-menu .menu-mobile-collapse-trigger span { background: #002366; }
 #header.fancy .mega-menu > section.menu-list-items { padding: 0px; }
 .quick-light page-section-pt links .lin { padding-top: 0px; }
 .custom-block-3 img { margin-top: 30px; } 
