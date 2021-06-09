@@ -221,7 +221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                            <div class="widget-search">
                               <div class="row">
                                 <div class="col-md-4">
-                                <img src="images/team/01.jpg" id="logo_dark_img" style="height: 100px;width: 100px;border-radius: 50%">
+                                <img src="images/team/01.jpg" class="img-fluid">
                               </div>
                               <div class="col-md-8">
                                 <h6>Jennifer</h6>
@@ -1169,6 +1169,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <section class="custom-block-3 page-section-pb">
                 <div class="container">
                  <div class="row">
+                   <div class="col-lg-6 col-md-12">
+                       <img class="img-fluid" id="profileImage" src="images/team/01.jpg">
+                    <input id="imageUpload" type="file" 
+                           name="profile_photo" placeholder="Photo" required="" capture>
+                   </div>
                   <div class="col-lg-6 col-md-12">
                     <div class="title">
                       <h3>About</h3>
@@ -1257,14 +1262,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6 col-md-12">
-                    <img class="img-fluid" src="images/team/01.jpg" alt="">
-                      <div class="text-center">
-                        <h6>Upload a different photo...</h6>
-                        <input type="file" class="form-control">
-                      </div>
-                  </div>
-                 </div>
                  <div class="row">
                   <div class="col-lg-12 col-md-12">
                       <div class="title">
@@ -1435,7 +1432,24 @@ both-sidebar  -->
  
 <!-- custom -->
 <script type="text/javascript" src="js/custom.js"></script>
+<script>
+  $("#profileImage").click(function(e) {
+    $("#imageUpload").click();
+});
 
+function fasterPreview( uploader ) {
+    if ( uploader.files && uploader.files[0] ){
+          $('#profileImage').attr('src', 
+             window.URL.createObjectURL(uploader.files[0]) );
+    }
+}
+
+$("#imageUpload").change(function(){
+    fasterPreview( this );
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 
 </html>
