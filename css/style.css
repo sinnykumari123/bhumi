@@ -473,12 +473,14 @@ Page section margin padding
 .dark-gray-bg { background: #908f94; }
 .red-bg { background:  #002366; }
 
+.our-clients .img-fluid{padding: 10px;}
+
 /*************************
   Section Title 
 ***********************/
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
-  background-color:#002366 ;
+  background-color:#002366;
   color: white;
 /*  padding: 16px 20px;*/
   border: none;
