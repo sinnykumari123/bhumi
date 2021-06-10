@@ -69,6 +69,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
     General
 *************************/
 
+
 #imageUpload
 {
     display: none;
@@ -477,7 +478,7 @@ Page section margin padding
 ***********************/
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
-  background-color: #0522fc;
+  background-color:#002366 ;
   color: white;
 /*  padding: 16px 20px;*/
   border: none;
@@ -1845,7 +1846,7 @@ ul.page-breadcrumb li a:hover { color: #002366; }
 
 /*sorting-options*/
 .sorting-options-main { border: 1px solid #e3e3e3; padding: 20px; }
-.sorting-options { padding: 10px 0px 0; display: none;}
+.sorting-options { padding: 10px 0px 0;}
 .sorting-options .change-view-button { margin-top: 10px; }
 .sorting-options .change-view-button a { display: inline-block; font-size: 24px; margin-right: 10px; color: #323232; }
 .sorting-options .change-view-button a.active { color: #002366; }
